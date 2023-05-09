@@ -32,6 +32,7 @@ export class PLV8ifyCLI implements PLV8ify {
     number: 'float8',
     string: 'text',
     boolean: 'boolean',
+    'Uint8Array': 'bytea',
   }
 
   init(inputFilePath: string) {
